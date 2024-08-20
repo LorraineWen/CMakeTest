@@ -1,2 +1,2 @@
 # CMakeTest
-Test CMake
+CMake build C++ project in different files;
