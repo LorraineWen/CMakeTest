@@ -1,0 +1,24 @@
+/* 设置窗口背景颜色 */
+QWidget {
+    background-color: hsl(116, 92%, 48%);
+}
+
+/* 设置按钮样式 */
+QPushButton {
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: darkblue;
+}
+
+/* 鼠标悬停时按钮样式 */
+QPushButton:hover {
+    background-color: #00d0ff;
+    color: white;
+}
+
+/* 鼠标按下时按钮样式 */
+QPushButton:pressed {
+    background-color: #8b0076;
+}

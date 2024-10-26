@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsum.a CMakeFiles/sum.dir/sum.cpp.o
-/usr/bin/ranlib libsum.a
