@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    QFile styleFile(":/view/qt.qss"); // 从资源文件中加载QSS文件
+    QFile styleFile("../view/qt.qss"); // 从资源文件中加载QSS文件
     styleFile.open(QFile::ReadOnly);
     QString styleSheet = QLatin1String(styleFile.readAll());
     qApp->setStyleSheet(styleSheet);
